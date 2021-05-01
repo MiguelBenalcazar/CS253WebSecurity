@@ -11,7 +11,6 @@ app.use(cookieParser(COOKIE_SECRET));
 app.use(bodyParser.urlencoded({ extended: false}))
 
 
-
 const USERS = { alice: 'password', bob: '50505'}
 const BALANCES = { alice: 500, bob: 100 }
 
